@@ -26,7 +26,6 @@ public class Cau6 {
         return Pattern.matches(regexEmail, email);
     }
     public static boolean isValidSDT(String phone){
-
         String regexSDT = "[0-9]{9,11}$";
         return Pattern.matches(regexSDT, phone);
     }
